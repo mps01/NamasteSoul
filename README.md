@@ -1,4 +1,4 @@
-# antara
+# Namaste Soul
 
 A new Flutter project.
 
