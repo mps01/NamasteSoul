@@ -1,0 +1,92 @@
+{
+    "radios": [
+        {
+            "id": 1,
+            "name": "Calm",
+            "tagline": "Calm your life",
+            "color": "0xffa11431",
+            "desc": "The chills you get when you listen to music, is mostly caused by the brain releasing dopamine while anticipating the peak moment of a song.",
+            "url": "https://streams.calmradio.com:30328/stream",
+            "icon": "https://mytuner.global.ssl.fastly.net/media/tvos_radios/m8afyszryaqt.png",
+            "image": "https://images.unsplash.com/photo-1475235035145-412844f9513a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80",
+            "lang": "Hindi",
+            "category": "Calm",
+            "disliked": false,
+            "order": 1
+        },
+        {
+            "id": 2,
+            "name": "Nature",
+            "tagline": "In the arms of mother nature!",
+            "color": "0xff221420",
+            "desc": "There are few activities in life that utilizes the entire brain, and music is one of them.",
+            "url": "https://nature-rex.radioca.st/stream",
+            "icon": "https://static.mytuner.mobi/media/tvos_radios/2z69hnevkvam.jpeg",
+            "image": "https://images.unsplash.com/photo-1531698451051-18c97580aeb2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
+            "lang": "Hindi",
+            "disliked": false,
+            "category": "Nature",
+            "order": 2
+        },
+                
+        {
+            "id": 3,
+            "name": "Meditation",
+            "tagline": "Feel your soul,within!",
+            "color": "0xff221420",
+            "desc": "If you are the one who wants to party through the day (& Night), then you’ve got your dream radio station.",
+            "url": "https://streams.calmradio.com:30328/stream",
+            "icon": "https://media.radiomirchi.com/onlinestation/banners/ClubMirchi165.jpg",
+            "image": "https://images.pexels.com/photos/3822621/pexels-photo-3822621.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+            "lang": "Hindi",
+            "disliked": false,
+            "category": "Focus",
+            "order": 3
+        },
+        {
+            "id": 4,
+            "name": "Yoga",
+            "tagline": "Health & Sprituality",
+            "color": "0xff04080b",
+            "desc": "Playing music regularly will physically alter your brain structure.",
+            "url": "https://rfcmedia.streamguys1.com/mixlitepremium.mp3",
+            "icon": "https://cdn-profiles.tunein.com/s247158/images/logog.png?t=1",
+            "image": "https://images.unsplash.com/photo-1555570089-3e4dc9087329?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=675&q=80",
+            "lang": "English",
+            "disliked": false,
+            "category": "Focus",
+            "order": 4
+        },
+        {
+            "id": 5,
+            "name": "Work",
+            "tagline": "Work&Chill",
+            "color": "0xff066c53",
+            "desc": "",
+            "url": "https://node-14.zeno.fm/0r0xa792kwzuv?rj-ttl=5&rj-tok=AAABeG9D2VcA9-DL534aOT5Yaw",
+            "icon": "https://cdn-radiotime-logos.tunein.com/s74987g.png",
+            "image": "https://images.unsplash.com/photo-1529790017476-1da550f3273a?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mzh8fHdvcmtpbmd8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+            "lang": "English",
+            "category": "Focus",
+            "disliked": false,
+            "order": 5
+        },
+
+       
+      
+        {
+            "id": 6,
+            "name": "Good Night",
+            "tagline": "Sleep with Sound",
+            "color": "0xffa06a37",
+            "desc": "Listen and forego your fatigue and calm your soul",
+            "url": "https://radio.stereoscenic.com/asp-s",
+            "icon": "https://mytuner.global.ssl.fastly.net/media/tvos_radios/ynn3xmm65ss7.jpeg",
+            "image": "https://images.pexels.com/photos/4473864/pexels-photo-4473864.jpeg?cs=srgb&dl=pexels-ketut-subiyanto-4473864.jpg&fm=jpg",
+            "lang": "English",
+            "category": "Sleep",
+            "disliked": false,
+            "order": 10
+        }
+    ]
+}
