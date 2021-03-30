@@ -1,4 +1,4 @@
-# Namaste Soul
+# Namaste Soul- Google Solution Challenge
 
 A new Flutter project.
 
