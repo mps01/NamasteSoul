@@ -195,6 +195,7 @@ class _HomePageState extends State<HomePage> {
                                         ),
                                       ),
                                       child: Card(
+                                        color: Colors.white,
                                         elevation: 2.0,
                                         shape: RoundedRectangleBorder(
                                             borderRadius:
@@ -211,7 +212,7 @@ class _HomePageState extends State<HomePage> {
                                                 "Relax Music",
                                                 style: TextStyle(
                                                     fontWeight: FontWeight.bold,
-                                                    fontSize: 20.0),
+                                                    fontSize: 18.0),
                                               ),
                                               SizedBox(
                                                 height: 5.0,
@@ -297,7 +298,7 @@ class _HomePageState extends State<HomePage> {
                                                 height: 10.0,
                                               ),
                                               Text(
-                                                "Habit Tracker",
+                                                "Track Habit",
                                                 style: TextStyle(
                                                     color: Colors.white,
                                                     fontWeight: FontWeight.bold,
@@ -330,6 +331,7 @@ class _HomePageState extends State<HomePage> {
                                           ),
                                         ),
                                         child: Card(
+                                          color: Colors.white,
                                           elevation: 2.0,
                                           shape: RoundedRectangleBorder(
                                               borderRadius:
@@ -347,7 +349,7 @@ class _HomePageState extends State<HomePage> {
                                                   style: TextStyle(
                                                       fontWeight:
                                                           FontWeight.bold,
-                                                      fontSize: 20.0),
+                                                      fontSize: 18.0),
                                                 ),
                                                 SizedBox(
                                                   height: 5.0,

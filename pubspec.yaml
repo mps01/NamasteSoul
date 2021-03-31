@@ -59,6 +59,7 @@ dependencies:
   url_launcher: ^5.4.10
   velocity_x: ^2.6.0
   wiredash: ^0.5.0
+ 
 dev_dependencies:
   flutter_test:
     sdk: flutter

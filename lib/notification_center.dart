@@ -10,7 +10,7 @@ class NotificationCetner {
 
   void setNotification(TimeOfDay time) async {
     await _dailyNotification(
-        0, time, 'Habo', 'Do not forget to check your habits.');
+        0, time, 'NS', 'Do not forget to check your habits.');
   }
 
   void setHabitNotification(

@@ -82,7 +82,7 @@ class _TensorflowState extends State<Tensorflow> {
           appBar: AppBar(
             centerTitle: true,
             title: Text(
-              "Tensorflow Lite",
+              "Stress Detector",
               style: TextStyle(color: Colors.white, fontSize: 25),
             ),
             backgroundColor: Color(0xFF21BFBD),
@@ -132,7 +132,7 @@ class _TensorflowState extends State<Tensorflow> {
                     size: 20,
                     color: Colors.white,
                   ),
-                  backgroundColor: Colors.amber,
+                  backgroundColor: Colors.deepOrange,
                 ),
               ],
             ),
