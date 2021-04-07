@@ -22,10 +22,12 @@ In this fast paced world where everyone just has so much workload, they forget a
 
 The features include :
 <ul>
+  <li><b>Motivational and Inspirational Quotes : </b></li> Motivational and inspirational quotes are present which can help to motivate the user to remain optimistic and motivated .
   <li><b>Stress Predictor : </b></li> It helps us to determine the stress levels on the basis of the Facial Photo of the User .
   <li><b>Yoga Pose Checker: </b></li> It helps the user to check whether the Yoga Pose they are doing is correct or not .
-  <li><b>Peaceful Music :</b></li> It helps us the user to rejuvenate our mind by listening to some peaceful music .
+  <li><b>Peaceful Music : </b></li> It helps us the user to rejuvenate our mind by listening to some peaceful music .
   <li><b>Task Planner : </b></li> It helps the user to plan the task / habits and keep a track of it. We can also use the app to notify us if we forget to do a task.
+</ul>
 
 
 ## Contributors:-
