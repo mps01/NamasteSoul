@@ -28,7 +28,7 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To use this app download and install the apk file in you android smartphone. [Click Here](https://github.com/mps01/NamasteSoul/blob/master/APK%20file/namastesoul.apk)
 
 A few resources to get you started if this is your first Flutter project:
 
