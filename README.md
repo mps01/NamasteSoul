@@ -22,7 +22,7 @@ The features include :
   <li> Krishanu Kashyap
   <li> Kushagra Gupta
   </ul>
-<hr>
+
 ## How To Use this App:
 
 To use this app download and install the apk file in you android smartphone. [Click Here](https://github.com/mps01/NamasteSoul/blob/master/APK%20file/namastesoul.apk)
