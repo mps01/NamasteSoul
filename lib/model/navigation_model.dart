@@ -1,10 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 class NavigationModel {
   String title;
   IconData icon;
 
-  NavigationModel({this.title, this.icon});
+  NavigationModel({
+    this.title,
+    this.icon,
+  });
 }
 
 List<NavigationModel> navigationItems = [

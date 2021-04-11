@@ -15,8 +15,8 @@ class WiredashApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Wiredash(
-      projectId: 'movie_app-ifif5q7',
-      secret: 'lo6w72002eidmenqkkzjzggo5ropn615liz4bf94lw3c0bup',
+      projectId: 'namaste-soul-p4zrkw6',
+      secret: 'jf7q0jgadqbs1s1hg2rck03obg3zmvauakra21731iqeljyd',
       navigatorKey: navigatorKey,
       child: child,
       theme: WiredashThemeData(

@@ -1,3 +1,8 @@
+import 'package:antara/screen/home/home_page.dart';
+import 'package:antara/screen/login.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:wiredash/wiredash.dart';
+
 import '../custom_navigation_drawer.dart';
 import 'package:flutter/material.dart';
 
@@ -45,7 +50,7 @@ class CollapsingNavigationDrawerState extends State<CollapsingNavigationDrawer>
             Padding(
               padding: const EdgeInsets.only(top: 50.0),
               child: CollapsingListTile(
-                title: 'Techie',
+                title: 'Hello',
                 icon: Icons.person,
                 animationController: _animationController,
               ),
@@ -65,6 +70,36 @@ class CollapsingNavigationDrawerState extends State<CollapsingNavigationDrawer>
                       setState(() {
                         currentSelectedIndex = counter;
                       });
+                      if (counter == 0) {
+                        return showDialog(
+                          context: context,
+                          builder: (ctx) => AlertDialog(
+                            title: Text("About"),
+                            content: Text(
+                                "Namaste Soul is an app built by bunch of college students aiming to eradicate mental illness. For more info go to: \ngithub.com/mps01/NamasteSoul"),
+                            actions: <Widget>[
+                              FlatButton(
+                                onPressed: () {
+                                  Navigator.of(ctx).pop();
+                                },
+                                child: Text("okay"),
+                              ),
+                            ],
+                          ),
+                        );
+                      }
+                      if (counter == 1) {
+                        Wiredash.of(context).show();
+                      }
+                      if (counter == 2) {
+                        _signOut();
+                        Navigator.pushReplacement(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => Login(),
+                          ),
+                        );
+                      }
                     },
                     isSelected: currentSelectedIndex == counter,
                     title: navigationItems[counter].title,
@@ -99,4 +134,10 @@ class CollapsingNavigationDrawerState extends State<CollapsingNavigationDrawer>
       ),
     );
   }
+}
+
+Future<Login> _signOut() async {
+  await FirebaseAuth.instance.signOut();
+
+  return new Login();
 }
