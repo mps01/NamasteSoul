@@ -172,7 +172,7 @@ class Yoga extends StatelessWidget {
                               ),
                               Image(
                                 image: NetworkImage(
-                                    "https://iconarchive.com/download/i89055/icons8/ios7/Transport-Speedometer.ico"),
+                                    "https://img.icons8.com/ios/452/speedometer.png"),
                                 height: 90,
                               ),
                             ],
